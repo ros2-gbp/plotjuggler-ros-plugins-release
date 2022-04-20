@@ -1,1 +1,1 @@
-{"base": "a278eaa", "parent": "debian/rolling/plotjuggler_ros", "previous": "dbe8c11", "trim": "", "trimbase": ""}
+{"base": "60a73c4", "parent": "debian/humble/plotjuggler_ros", "previous": "9d32996", "trim": "", "trimbase": ""}
