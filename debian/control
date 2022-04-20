@@ -1,0 +1,12 @@
+Source: ros-humble-plotjuggler-ros
+Section: misc
+Priority: optional
+Maintainer: Davide Faconti <davide.faconti@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), binutils-dev, libboost-all-dev, libqt5svg5-dev, libqt5websockets5-dev, qtbase5-dev, ros-humble-ament-cmake, ros-humble-diagnostic-msgs, ros-humble-fastcdr, ros-humble-geometry-msgs, ros-humble-nav-msgs, ros-humble-plotjuggler, ros-humble-plotjuggler-msgs, ros-humble-rclcpp, ros-humble-rcpputils, ros-humble-rosbag2, ros-humble-rosbag2-transport, ros-humble-sensor-msgs, ros-humble-tf2-msgs, ros-humble-tf2-ros, ros-humble-ros-workspace
+Homepage: https://github.com/facontidavide/PlotJuggler
+Standards-Version: 3.9.2
+
+Package: ros-humble-plotjuggler-ros
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, binutils-dev, libboost-all-dev, libqt5svg5-dev, libqt5websockets5-dev, qtbase5-dev, ros-humble-diagnostic-msgs, ros-humble-fastcdr, ros-humble-geometry-msgs, ros-humble-nav-msgs, ros-humble-plotjuggler, ros-humble-plotjuggler-msgs, ros-humble-rclcpp, ros-humble-rcpputils, ros-humble-rosbag2, ros-humble-rosbag2-transport, ros-humble-sensor-msgs, ros-humble-tf2-msgs, ros-humble-tf2-ros, ros-humble-ros-workspace
+Description: PlotJuggler plugin for ROS
