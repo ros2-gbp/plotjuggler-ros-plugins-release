@@ -2,19 +2,21 @@
 Changelog for package plotjuggler_ros
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-1.5.1 (2021-07-31)
+1.7.3 (2023-01-14)
 ------------------
-* Merge branch 'rolling' of github.com:PlotJuggler/plotjuggler-ros-plugins into rolling
-* rosbag2 logging hpp change
-* compile with rolling
-* Last galactic API build (`#19 <https://github.com/PlotJuggler/plotjuggler-ros-plugins/issues/19>`_)
-  * compile with rolling
-  * rosbag2 logging hpp change
-  * compils with galactic API
-  Co-authored-by: Davide Faconti <davide.faconti@gmail.com>
-* rosbag2 logging hpp change
-* compile with rolling
-* Contributors: Davide Faconti, G.Doisy, Guillaume Doisy
+* Fix mapping of multiple pal_statistics topics (`#61 <https://github.com/PlotJuggler/plotjuggler-ros-plugins/issues/61>`_)
+* fix implicit uint8_t -> double narrowing (`#42 <https://github.com/PlotJuggler/plotjuggler-ros-plugins/issues/42>`_)
+  YES, the standard committee believes this might be narrowing
+  and clang 12 throws this error:
+  > error: non-constant-expression cannot be narrowed from type 'uint8_t' (aka 'unsigned char') to 'double' in initializer list [-Wc++11-narrowing]
+* Contributors: Michael Görner, Victor Lopez
+
+1.6.2 (2021-10-21)
+------------------
+* parse a ROSBAG even if some topic types are not recognized
+* Update ros2.yaml
+* segmentation fault off (`#30 <https://github.com/PlotJuggler/plotjuggler-ros-plugins/issues/30>`_)
+* Contributors: Davide Faconti, simulacrus
 
 1.5.0 (2021-06-20)
 ------------------
