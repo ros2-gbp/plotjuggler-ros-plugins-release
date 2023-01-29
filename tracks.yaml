@@ -145,11 +145,11 @@ tracks:
     - git-bloom-generate -y rosrpm --prefix release/:{ros_distro} :{ros_distro} -i
       :{release_inc} --os-name rhel
     devel_branch: rolling
-    last_release: rolling-1.7.3
+    last_release: rolling-1.7.3-2
     last_version: 1.7.3
     name: upstream
     patches: null
-    release_inc: '3'
+    release_inc: '4'
     release_repo_url: https://github.com/ros2-gbp/plotjuggler-ros-plugins-release.git
     release_tag: rolling-1.7.3-2
     ros_distro: rolling
