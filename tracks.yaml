@@ -97,7 +97,7 @@ tracks:
     last_version: 1.7.3
     name: upstream
     patches: null
-    release_inc: '5'
+    release_inc: '6'
     release_repo_url: null
     release_tag: rolling-1.7.3-2
     ros_distro: iron
