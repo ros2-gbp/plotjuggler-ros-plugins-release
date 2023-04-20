@@ -1,0 +1,12 @@
+Source: ros-iron-plotjuggler-ros
+Section: misc
+Priority: optional
+Maintainer: Davide Faconti <davide.faconti@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), binutils-dev, libboost-all-dev, libqt5svg5-dev, libqt5websockets5-dev, qtbase5-dev, ros-iron-ament-cmake, ros-iron-diagnostic-msgs, ros-iron-fastcdr, ros-iron-geometry-msgs, ros-iron-nav-msgs, ros-iron-plotjuggler, ros-iron-plotjuggler-msgs, ros-iron-rclcpp, ros-iron-rcpputils, ros-iron-rosbag2, ros-iron-rosbag2-transport, ros-iron-sensor-msgs, ros-iron-tf2-msgs, ros-iron-tf2-ros, ros-iron-ros-workspace
+Homepage: https://github.com/facontidavide/PlotJuggler
+Standards-Version: 3.9.2
+
+Package: ros-iron-plotjuggler-ros
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, binutils-dev, libboost-all-dev, libqt5svg5-dev, libqt5websockets5-dev, qtbase5-dev, ros-iron-diagnostic-msgs, ros-iron-fastcdr, ros-iron-geometry-msgs, ros-iron-nav-msgs, ros-iron-plotjuggler, ros-iron-plotjuggler-msgs, ros-iron-rclcpp, ros-iron-rcpputils, ros-iron-rosbag2, ros-iron-rosbag2-transport, ros-iron-sensor-msgs, ros-iron-tf2-msgs, ros-iron-tf2-ros, ros-iron-ros-workspace
+Description: PlotJuggler plugin for ROS
