@@ -2,6 +2,27 @@
 Changelog for package plotjuggler_ros
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+2.1.1 (2024-02-19)
+------------------
+* critical bug fix in ROS1 plugins
+* Contributors: Davide Faconti
+
+2.1.0 (2024-02-04)
+------------------
+* preparing for release 3.9
+* Update ros1.yaml
+* Add support for compressed rosbags (`#77 <https://github.com/PlotJuggler/plotjuggler-ros-plugins/issues/77>`_)
+* Contributors: Anthony Welte, Davide Faconti
+
+1.7.3 (2023-01-14)
+------------------
+* Fix mapping of multiple pal_statistics topics (`#61 <https://github.com/PlotJuggler/plotjuggler-ros-plugins/issues/61>`_)
+* fix implicit uint8_t -> double narrowing (`#42 <https://github.com/PlotJuggler/plotjuggler-ros-plugins/issues/42>`_)
+  YES, the standard committee believes this might be narrowing
+  and clang 12 throws this error:
+  > error: non-constant-expression cannot be narrowed from type 'uint8_t' (aka 'unsigned char') to 'double' in initializer list [-Wc++11-narrowing]
+* Contributors: Michael Görner, Victor Lopez
+
 1.6.2 (2021-10-21)
 ------------------
 * parse a ROSBAG even if some topic types are not recognized
