@@ -1,0 +1,12 @@
+Source: ros-jazzy-plotjuggler-ros
+Section: misc
+Priority: optional
+Maintainer: Davide Faconti <davide.faconti@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), binutils-dev, libboost-all-dev, libqt5svg5-dev, libqt5websockets5-dev, qtbase5-dev, ros-jazzy-ament-cmake, ros-jazzy-plotjuggler, ros-jazzy-rclcpp, ros-jazzy-rcpputils, ros-jazzy-ros-environment, ros-jazzy-rosbag2, ros-jazzy-rosbag2-transport, ros-jazzy-tf2-msgs, ros-jazzy-tf2-ros, ros-jazzy-ros-workspace
+Homepage: https://github.com/facontidavide/PlotJuggler
+Standards-Version: 3.9.2
+
+Package: ros-jazzy-plotjuggler-ros
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, binutils-dev, libboost-all-dev, libqt5svg5-dev, libqt5websockets5-dev, qtbase5-dev, ros-jazzy-plotjuggler, ros-jazzy-rclcpp, ros-jazzy-rcpputils, ros-jazzy-ros-environment, ros-jazzy-rosbag2, ros-jazzy-rosbag2-transport, ros-jazzy-tf2-msgs, ros-jazzy-tf2-ros, ros-jazzy-ros-workspace
+Description: PlotJuggler plugin for ROS
