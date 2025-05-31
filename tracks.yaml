@@ -66,14 +66,14 @@ tracks:
       :{release_inc} --os-name fedora
     - git-bloom-generate -y rosrpm --prefix release/:{ros_distro} :{ros_distro} -i
       :{release_inc} --os-name rhel
-    devel_branch: humble
+    devel_branch: main
     last_release: 2.1.2-humble
     last_version: 2.1.2
     name: upstream
     patches: null
     release_inc: '1'
     release_repo_url: https://github.com/ros2-gbp/plotjuggler-ros-plugins-release.git
-    release_tag: :{version}-humble
+    release_tag: :{version}
     ros_distro: humble
     vcs_type: git
     vcs_uri: https://github.com/PlotJuggler/plotjuggler-ros-plugins.git
