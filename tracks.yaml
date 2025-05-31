@@ -68,7 +68,7 @@ tracks:
       :{release_inc} --os-name rhel
     devel_branch: main
     last_release: 2.1.2-humble
-    last_version: 2.1.2
+    last_version: 2.2.1
     name: upstream
     patches: null
     release_inc: '1'
