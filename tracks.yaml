@@ -122,7 +122,7 @@ tracks:
       :{release_inc} --os-name rhel
     devel_branch: main
     last_release: rolling-1.7.3-2
-    last_version: 2.2.0
+    last_version: 2.3.0
     name: upstream
     patches: null
     release_inc: '1'
