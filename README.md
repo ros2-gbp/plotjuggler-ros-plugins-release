@@ -1,3 +1,26 @@
+## plotjuggler_ros (rolling) - 2.3.0-1
+
+The packages in the `plotjuggler_ros` repository were released into the `rolling` distro by running `/usr/bin/bloom-release --rosdistro rolling plotjuggler_ros -y` on `Fri, 06 Jun 2025 07:42:58 -0000`
+
+The `plotjuggler_ros` package was released.
+
+Version of package(s) in repository `plotjuggler_ros`:
+
+- upstream repository: https://github.com/PlotJuggler/plotjuggler-ros-plugins.git
+- release repository: https://github.com/ros2-gbp/plotjuggler-ros-plugins-release.git
+- rosdistro version: `2.1.3-1`
+- old version: `2.2.0-1`
+- new version: `2.3.0-1`
+
+Versions of tools used:
+
+- bloom version: `0.12.0`
+- catkin_pkg version: `1.0.0`
+- rosdep version: `0.25.1`
+- rosdistro version: `1.0.1`
+- vcstools version: `0.1.42`
+
+
 ## plotjuggler_ros (humble) - 2.3.0-1
 
 The packages in the `plotjuggler_ros` repository were released into the `humble` distro by running `/usr/bin/bloom-release --rosdistro humble plotjuggler_ros -y` on `Fri, 06 Jun 2025 07:38:21 -0000`
