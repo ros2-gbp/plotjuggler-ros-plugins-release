@@ -1,0 +1,12 @@
+Source: ros-lyrical-plotjuggler-ros
+Section: misc
+Priority: optional
+Maintainer: Davide Faconti <davide.faconti@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), binutils-dev, libboost-all-dev, libfmt-dev, libqt5svg5-dev, libqt5websockets5-dev, qtbase5-dev, ros-lyrical-ament-cmake, ros-lyrical-plotjuggler, ros-lyrical-plotjuggler-msgs, ros-lyrical-rclcpp, ros-lyrical-rcpputils, ros-lyrical-rosbag2-transport, ros-lyrical-tf2-msgs, ros-lyrical-tf2-ros, ros-lyrical-ros-workspace
+Homepage: https://github.com/facontidavide/PlotJuggler
+Standards-Version: 3.9.2
+
+Package: ros-lyrical-plotjuggler-ros
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, binutils-dev, libboost-all-dev, libfmt-dev, libqt5svg5-dev, libqt5websockets5-dev, qtbase5-dev, ros-lyrical-plotjuggler, ros-lyrical-plotjuggler-msgs, ros-lyrical-rclcpp, ros-lyrical-rcpputils, ros-lyrical-rosbag2-transport, ros-lyrical-tf2-msgs, ros-lyrical-tf2-ros, ros-lyrical-ros-workspace
+Description: PlotJuggler plugin for ROS
